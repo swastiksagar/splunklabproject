@@ -82,7 +82,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 <img width="" height="323" alt="Screenshot 2025-09-02 174442" src="https://github.com/user-attachments/assets/53d01ad6-0139-4ee9-91f5-714a05320222" /><br>
 
 4. Log in with your **Splunk Admin** credentials<br>
-⦁ *In my case:*<br>
+⦁ **In my case:**<br>
 
 `Username:`
 ```
