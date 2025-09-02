@@ -83,7 +83,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 <img width="" height="323" alt="Screenshot 2025-09-02 174442" src="https://github.com/user-attachments/assets/53d01ad6-0139-4ee9-91f5-714a05320222" /><br>
 
 *Log in with your Splunk Admin credentials*
-
+#
 <img width="" height="323" alt="Screenshot 2025-08-31 112102" src="https://github.com/user-attachments/assets/1e9dbb4d-6d6b-40b9-b23f-ef4b92adcf59" /><br>
 
-
+*Dashboard of Splunk Enterprise*
