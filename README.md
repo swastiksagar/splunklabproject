@@ -63,7 +63,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 <div align="left"> <h3>Installation Steps on Windows</h3></div>
 
 1. Download Splunk Enterprise<br>
-⦁ Visit Splunk [**Downloads**](https://www.splunk.com/en_us/download/splunk-enterprise.html)<br>
+⦁ Visit Splunk [**Downloads**](https://www.splunk.com/en_us/download/splunk-enterprise.html) section<br>
 ⦁ Choose Splunk Enterprise for Windows `64-bit`<br>
 
 <img width="" height="323" alt="Screenshot 2025-09-02 122417" src="https://github.com/user-attachments/assets/85b2bbfa-3b88-4c71-a1a0-cbc7519344a8" /><br>
@@ -81,7 +81,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 
 <img width="" height="323" alt="Screenshot 2025-09-02 174442" src="https://github.com/user-attachments/assets/53d01ad6-0139-4ee9-91f5-714a05320222" /><br>
 
-*Log in with your **Splunk Admin** credentials*<br>
+4. Log in with your **Splunk Admin** credentials<br>
 ⦁ *In my case:*<br>
 
 `Username:`
