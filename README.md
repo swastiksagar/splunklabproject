@@ -74,15 +74,14 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 ⦁ Set Splunk Admin credentials *default web port:* `8000`<br>
 
 3. Start Splunk<br>
-
 ⦁ Open Splunk Enterprise from Start Menu<br>
+⦁ Access Splunk Web at: `http://localhost:8000`<br>
 
 <img width="" height="40" alt="Screenshot 2025-09-02 122612" src="https://github.com/user-attachments/assets/620e0895-baea-4ca0-84de-25b53d61c416" /><br>
-⦁ Access Splunk Web at: `http://localhost:8000`<br>
 
 <img width="" height="323" alt="Screenshot 2025-09-02 174442" src="https://github.com/user-attachments/assets/53d01ad6-0139-4ee9-91f5-714a05320222" /><br>
 
-*Log in with your Splunk Admin credentials*
+*Log in with your **Splunk Admin** credentials*
 #
 <img width="" height="323" alt="Screenshot 2025-08-31 112102" src="https://github.com/user-attachments/assets/1e9dbb4d-6d6b-40b9-b23f-ef4b92adcf59" /><br>
 
