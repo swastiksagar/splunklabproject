@@ -15,7 +15,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 <div align="left"> <h3>Objectives</h3></div>
 
 ⦁ Successfully installed Splunk on Windows<br>
-⦁ Collecting and indexing Windows Event Logs & DNS logs<br>
+⦁ Collecting and indexing Windows Event *Logs & DNS logs*<br>
 ⦁ Ability to create custom dashboards and alerts<br>
 ⦁ Hands-on experience with **log analysis and security monitoring**<br>
 
