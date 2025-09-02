@@ -75,7 +75,10 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 
 3. Start Splunk<br>
 ⦁ Open Splunk Enterprise from Start Menu<br>
-⦁ Access Splunk Web at: `http://localhost:8000`<br>
+⦁ Access Splunk Web at: <br>
+```
+http://localhost:8000
+```
 
 <img width="" height="50.9" alt="Screenshot 2025-09-02 122612" src="https://github.com/user-attachments/assets/620e0895-baea-4ca0-84de-25b53d61c416" /><br>
 
