@@ -4,6 +4,7 @@
 
 <div align="left"><h3>Description</h3></div>
 
+![Splunk](https://img.shields.io/badge/Splunk-000000.svg?style=for-the-badge&logo=Splunk&logoColor=white)<br>
 This project sets up a Splunk lab environment on Windows to collect, index, and analyze log data for security and operational insights. The lab is designed for learning, testing, and simulating real-world use cases such as:<br>
 ⦁ Centralized log management<br>
 ⦁ Security monitoring `DNS, Firewall, Authentication logs, etc.`<br>
