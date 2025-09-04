@@ -113,7 +113,7 @@ Dashboard of Splunk Enterprise
 
 <img width="" height="323" alt="Screenshot 2025-09-04 175123" src="https://github.com/user-attachments/assets/c9369a88-9ee7-4a50-933c-9a1d29e36cb7" /><br>
 
-Log ' In to your account at [***NextDNS***](nextdns.io). Navigate to the correct `configuration.`
+Log in to your  [***NextDNS***](nextdns.io). and navigate to the appropriate configuration.
 #
 
 <img width="" height="323" alt="Screenshot 2025-09-04 175148" src="https://github.com/user-attachments/assets/6c43abaa-a466-40d0-a84c-de9e304ddffc" /><br>
