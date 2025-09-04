@@ -81,12 +81,14 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 http://localhost:8000
 ```
 
-<img width="" height="50.9" alt="Screenshot 2025-09-02 122612" src="https://github.com/user-attachments/assets/620e0895-baea-4ca0-84de-25b53d61c416" /><br>
+<img width="" height="45" alt="Screenshot 2025-09-02 122612" src="https://github.com/user-attachments/assets/620e0895-baea-4ca0-84de-25b53d61c416" /><br>
 
 <img width="" height="323" alt="Screenshot 2025-09-02 174442" src="https://github.com/user-attachments/assets/53d01ad6-0139-4ee9-91f5-714a05320222" /><br>
 
 4. Log in with your **Splunk Admin** credentials<br>
-⦁ In my case:<br>
+
+> [!TIP]
+> **The one we set during installation.**
 
 `Username:`
 ```
@@ -100,4 +102,30 @@ swastiksagar
 <img width="" height="323" alt="Screenshot 2025-08-31 112102" src="https://github.com/user-attachments/assets/1e9dbb4d-6d6b-40b9-b23f-ef4b92adcf59" /><br>
 
 Dashboard of Splunk Enterprise
+
+<div align="left"> <h3>Log's Analysis</h3></div>
+
+⦁ Downloaded `logs` from my personal [***NextDNS***](nextdns.io) profile and want to analyze them in **Splunk,** here's a structured approach to help you ingest, parse, and extract meaningful insights:<br>
+
+> [!NOTE]
+> To generate `DNS` and network activity logs for analysis. Surf the internet across a variety of domains for minimum `15–30 minutes` of active browsing recommended to ensure sufficient log volume.
+
+
+<img width="" height="323" alt="Screenshot 2025-09-04 175123" src="https://github.com/user-attachments/assets/c9369a88-9ee7-4a50-933c-9a1d29e36cb7" /><br>
+
+Log ' In to your account at [***NextDNS***](nextdns.io). Navigate to the correct `configuration.`
 #
+
+<img width="" height="323" alt="Screenshot 2025-09-04 175148" src="https://github.com/user-attachments/assets/6c43abaa-a466-40d0-a84c-de9e304ddffc" /><br>
+
+Go to the *Settings* tab. Scroll to the Logs section and Click *Download Logs* button. This will export your DNS logs as a **.csv** file, which includes fields like:
+`timestamp,` `domain,` `query_type,` `protocol,` `client_ip (if enabled),`  `status (blocked/allowed),` `reason,` `device_name,` `device_model (if client identification is enabled).`
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-04 175207" src="https://github.com/user-attachments/assets/1748304c-1f71-4b2e-a969-0517a749c14b" /><br>
+
+The file will be downloaded to your system - ready for analysis in **Splunk** or any other `tool.`
+
+> [!WARNING]
+> **This log file contains DNS or network activity related to websites classified as 18+ or adult content.**
+
