@@ -132,3 +132,18 @@ The file will be downloaded to your system - ready for analysis in **Splunk** or
 > [!WARNING]
 > **This Log file contains DNS or network activity related to websites classified as 18+ or adult content.**
 
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233337" src="https://github.com/user-attachments/assets/725bfbbe-0ec6-41f4-ba0c-672ef508a285" /><br>
+
+Go to `Settings` button. Then click on **Add Data**.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233405" src="https://github.com/user-attachments/assets/c954206e-d6f1-4548-9db0-d4d9e2f4ea48" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233448" src="https://github.com/user-attachments/assets/44e85968-7561-416f-bd67-cd15336c3f08" /><br>
+
+Then after choose the `source` and type of data. *{ Splunk gives three main ways: Upload, Monitor, Forward }*. I have Uploaded the **.csv** file and green tick will be visible in screen showing that *File Successfully Uploaded.* 
+
+#
