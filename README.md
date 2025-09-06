@@ -144,6 +144,6 @@ Go to `Settings` button. Then click on **Add Data**.
 
 <img width="" height="323" alt="Screenshot 2025-09-06 233448" src="https://github.com/user-attachments/assets/44e85968-7561-416f-bd67-cd15336c3f08" /><br>
 
-Then after choose the `source` and type of data. *{ Splunk gives three main ways: Upload, Monitor, Forward }*. I have Uploaded the **.csv** file and green tick will be visible in screen showing that *File Successfully Uploaded.* 
+After selecting the source and specifying the type of data, Splunk provides three input options: **Upload, Monitor, or Forward.** In this example, we selected Upload and added a `.csv` file. Once the file is successfully uploaded, a green check mark appears on the screen confirming the upload.
 
 #
