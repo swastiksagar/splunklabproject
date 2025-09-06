@@ -127,7 +127,7 @@ Go to the *Settings* tab. Scroll to the Logs section and Click *Download Logs* b
 The file will be downloaded to your system - ready for analysis in **Splunk** or any other `tool.`
 
 #
-*You can download and unzip the log file for analysis either from the repositories section or directly from here:* [*nextdns.zip*](https://github.com/swastiksagar/splunklabproject/raw/refs/heads/main/nextdns.zip)
+*You can download and unzip the log file for analysis either from the repositories section or directly from here:* [*nextdns.zip*](https://github.com/swastiksagar/splunklabproject/raw/refs/heads/main/NextDNS/nextdns.zip)
 
 > [!WARNING]
 > **This Log file contains DNS or network activity related to websites classified as 18+ or adult content.**
