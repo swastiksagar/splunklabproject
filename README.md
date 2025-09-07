@@ -170,13 +170,31 @@ Review the data.<br>
 
 <img width="" height="323" alt="Screenshot 2025-09-06 234008" src="https://github.com/user-attachments/assets/d32b541a-4885-4db8-a634-b5f31aac9e7a" /><br>
 
-Confirming **Data Ingestion** in Splunk. The **CSV** file `nextdns.io.csv` was uploaded into Splunk with the following configuration: *Host:* ***MSI***, *Index:* ***index_nextdns***, *Sourcetype:* ***csv***<br>
+Confirming **Data Ingestion** in Splunk. The **csv** file `nextdns.io.csv` was uploaded into *Splunk* with the following configuration: `Host: MSI`, `Index: index_nextdns`, `Sourcetype: csv`<br>
 
 ⦁ After running the search query:<br>
 
-```spl
-source="nextdns. io.csv" index="index_nextdns" sourcetype="csv"
+```console
+source="nextdns.io.csv" index="index_nextdns" sourcetype="csv"
 ```
 
 ⦁ Splunk successfully returned **271,757** events, confirming that the data was fully ingested.<br>
 ⦁ The event timeline *{ green bar chart }* displays activity distribution over time, and sample events show that fields like `host`, `source`, and `sourcetype` were correctly extracted.<br>
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 235524" src="https://github.com/user-attachments/assets/df77cf19-8812-43e0-b65e-69baa8675692" /><br>
+
+Confirming **Block Reasons** in NextDNS Logs. The event timeline confirms consistent log entries across the time range, proving that *Splunk* correctly parsed and indexed the reasons field from the **csv** file.<br>
+
+⦁ Query executed:<br>
+
+```console
+index="index_nextdns" sourcetype="csv" reasons =*
+```
+
+⦁ Splunk returned **40,008** events where a `reasons` field was present.<br>
+⦁ Example event output shows blocked domains such as:<br>
+`w3-reporting.reddit.com, blocked, "blocklist:hblock"` indicating that traffic was blocked due to the *`hblock blocklist.`*<br>
+
+#
