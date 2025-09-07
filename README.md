@@ -147,3 +147,36 @@ Go to `Settings` button. Then click on **Add Data**.
 After selecting the source and specifying the type of data, Splunk provides three input options: **Upload, Monitor, or Forward.** In this example, we selected Upload and added a `.csv` file. Once the file is successfully uploaded, a green check mark appears on the screen confirming the upload.
 
 #
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233538" src="https://github.com/user-attachments/assets/f72970f1-661e-4003-958e-398173721849" /><br>
+
+Set the source type data.<br>
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233611" src="https://github.com/user-attachments/assets/bb846544-9fe5-455e-ab4c-c6e020ae7485" /><br>
+
+Name the *index* file as you want.<br>
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233625" src="https://github.com/user-attachments/assets/ca66adae-2d8c-442a-ba1a-f2415e8bc2fd" /><br>
+
+Review the data.<br>
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-06 233637" src="https://github.com/user-attachments/assets/0a14a9df-76bb-45a3-a547-5369251029e2" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-09-06 234008" src="https://github.com/user-attachments/assets/d32b541a-4885-4db8-a634-b5f31aac9e7a" /><br>
+
+Confirming **Data Ingestion** in Splunk. The **CSV** file `nextdns.io.csv` was uploaded into Splunk with the following configuration: *Host:* ***MSI***, *Index:* ***index_nextdns***, *Sourcetype:* ***csv***<br>
+
+⦁ After running the search query:<br>
+
+```spl
+source="nextdns. io.csv" index="index_nextdns" sourcetype="csv"
+```
+
+⦁ Splunk successfully returned **271,757** events, confirming that the data was fully ingested.<br>
+⦁ The event timeline *{ green bar chart }* displays activity distribution over time, and sample events show that fields like `host`, `source`, and `sourcetype` were correctly extracted.<br>
