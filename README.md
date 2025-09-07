@@ -197,4 +197,5 @@ index="index_nextdns" sourcetype="csv" reasons =*
 ⦁ Example event output shows blocked domains such as:<br>
 `w3-reporting.reddit.com, blocked, "blocklist:hblock"` indicating that traffic was blocked due to the *`hblock blocklist.`*<br>
 
-#
+> [!NOTE]
+> This step validates that NextDNS block reasons are searchable in Splunk, enabling further analysis like most-blocked domains, top blocklists triggered, and trends over time.
