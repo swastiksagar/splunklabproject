@@ -197,6 +197,11 @@ index="index_nextdns" sourcetype="csv" reasons =*
 ⦁ Example event output shows blocked domains such as:<br>
 `w3-reporting.reddit.com, blocked, "blocklist:hblock"` indicating that traffic was blocked due to the *`hblock blocklist.`*<br>
 
+> [!TIP]
+> The visualized file of blocked events has been uploaded under **Report** folder of *splunklabproject* repositories.
+
+#
+
 > [!NOTE]
 > This step validates that NextDNS block reasons are searchable in Splunk, enabling further analysis like most-blocked domains, top blocklists triggered, and trends over time.
 
@@ -204,7 +209,7 @@ index="index_nextdns" sourcetype="csv" reasons =*
 
 <img width="" height="323" alt="Screenshot 2025-09-08 114229" src="https://github.com/user-attachments/assets/2ec048b5-b45b-490c-9733-8ad4db00e4c9" /><br>
 
-Go the Download page of *Splunk*.
+Go the [***Download***](https://www.splunk.com/en_us/download/universal-forwarder.html) page of *Splunk*.
 
 #
 
@@ -222,12 +227,52 @@ Click on **.msi** installer and click on the Accept License after that select th
 
 <img width="" height="323" alt="Screenshot 2025-09-08 114408" src="https://github.com/user-attachments/assets/b8501c65-6748-46cf-8c1a-3cccb55b727d" /><br>
 
-Create the `Username` and `Password` for Forwarder.
+Create the `Username` and `Password` for the Forwarder.
 
 #
 
 <img width="" height="323" alt="Screenshot 2025-09-08 115901" src="https://github.com/user-attachments/assets/56c14196-9b40-4605-8d2f-7191de06dee3" /><br>
 
-In the **Deployment** server either you can leave it blank or use the Local Host IP Address for it ending with default Port Number `8089`.
+In the **Deployment** server either you can leave it blank or use the Local Host IP Address for it ending with default Port number `8089`.
 
+#
 
+<img width="" height="323" alt="Screenshot 2025-09-08 115922" src="https://github.com/user-attachments/assets/808a3c6c-99ef-4c9f-9287-dc4c5331039e" /><br>
+
+In the **Receiving Indexer** use the Local Host IP Address same as *Deployment* server address it's default Port number `9997`.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 114514" src="https://github.com/user-attachments/assets/ca009e57-16f7-4280-8ebd-f7f9e9d9e225" /><br>
+
+After doing every mentioned steps above we are ready to Install *Splunk Universal Forwarder.*
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 120438" src="https://github.com/user-attachments/assets/1bb08bfa-1944-45eb-bc90-f6a2fdfa8c9d" /><br>
+
+Configure Splunk to receive data from forwarders by enabling port **`9997`** under *Settings -> Forwarding and Receiving -> Receive data -> Add new*.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 123502" src="https://github.com/user-attachments/assets/f8507a2e-6e86-4149-82e0-efa1e2ad312c" /><br>
+
+Splunk is now successfully listening on port **`9997`** for receiving data from forwarders.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 132306" src="https://github.com/user-attachments/assets/f4e41cc1-954d-46be-b5c4-63768145ae33" /><br>
+
+Verified the **Health of Local Splunk Deployment**, all indicators are green and functioning properly.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 155911" src="https://github.com/user-attachments/assets/a9b26615-1a0b-4618-8227-deb2246c28a7" /><br>
+
+Restart the *Splunk Enterprise.*
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 160800" src="https://github.com/user-attachments/assets/51b9a07f-def5-489b-8c98-cc0347bbb75e" /><br>
+
+The forwarder successfully detected the system **Windows MSI** and was assigned to a new server class named *Windows 11*.
