@@ -199,3 +199,35 @@ index="index_nextdns" sourcetype="csv" reasons =*
 
 > [!NOTE]
 > This step validates that NextDNS block reasons are searchable in Splunk, enabling further analysis like most-blocked domains, top blocklists triggered, and trends over time.
+
+<div align=left"><h3>Installation of Splunk Universal Forwarder</h3>
+
+<img width="" height="323" alt="Screenshot 2025-09-08 114229" src="https://github.com/user-attachments/assets/2ec048b5-b45b-490c-9733-8ad4db00e4c9" /><br>
+
+Go the Download page of *Splunk*.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 114246" src="https://github.com/user-attachments/assets/1b9a6a08-2a91-43de-850c-400134277d8e" /><br>
+
+Download the **Splunk Universal Forwarder** for Windows.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 114345" src="https://github.com/user-attachments/assets/ab44bf4b-c68b-47f9-8dde-60397ee254ab" /><br>
+
+Click on **.msi** installer and click on the Accept License after that select the *An on-premises Splunk Enterprise instance.*
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 114408" src="https://github.com/user-attachments/assets/b8501c65-6748-46cf-8c1a-3cccb55b727d" /><br>
+
+Create the `Username` and `Password` for Forwarder.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-08 115901" src="https://github.com/user-attachments/assets/56c14196-9b40-4605-8d2f-7191de06dee3" /><br>
+
+In the **Deployment** server either you can leave it blank or use the Local Host IP Address for it ending with default Port Number `8089`.
+
+
