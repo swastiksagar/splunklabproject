@@ -233,13 +233,13 @@ Create the `Username` and `Password` for the Forwarder.
 
 <img width="" height="323" alt="Screenshot 2025-09-08 115901" src="https://github.com/user-attachments/assets/56c14196-9b40-4605-8d2f-7191de06dee3" /><br>
 
-In the **Deployment** server either you can leave it blank or use the Local Host IP Address for it ending with default Port number `8089`.
+In the **Deployment Server** either you can leave it blank or use the <ins>Local Host</ins> IP Address for it ending with it's default Port number `8089`.
 
 #
 
 <img width="" height="323" alt="Screenshot 2025-09-08 115922" src="https://github.com/user-attachments/assets/808a3c6c-99ef-4c9f-9287-dc4c5331039e" /><br>
 
-In the **Receiving Indexer** use the Local Host IP Address same as *Deployment* server address it's default Port number `9997`.
+In the **Receiving Indexer** use the <ins>Local Host</ins> IP Address same as *Deployment* server address it's default Port number `9997`.
 
 #
 
