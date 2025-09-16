@@ -276,3 +276,29 @@ Restart the *Splunk Enterprise.*
 <img width="" height="323" alt="Screenshot 2025-09-08 160800" src="https://github.com/user-attachments/assets/51b9a07f-def5-489b-8c98-cc0347bbb75e" /><br>
 
 The forwarder successfully detected the system **Windows MSI** and was assigned to a new server class named *Windows 11*.
+
+<div align="left"><h3>Windows Logs and Event Analysis</h3></div>
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043055" src="https://github.com/user-attachments/assets/8cdd3788-fc23-4d98-8bcb-2e2bb285a5ba" /><br>
+
+Under *Settings -> Add data*.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043322" src="https://github.com/user-attachments/assets/8425959b-87d1-4aa1-b763-6e90577dc715" /><br>
+
+Click on **Monitor** to add data from local computer.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043511" src="https://github.com/user-attachments/assets/607990aa-82dd-46b0-a938-9ca033f5f16b" /><br>
+
+In select source option click on **Local Event Logs** to add Event Logs from local computer. Select the desired *Event Data* you want. I have choosen Application, Security, Setup and System.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043548" src="https://github.com/user-attachments/assets/3e9529e9-0178-4c08-af8e-9e53008b873e" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043655" src="https://github.com/user-attachments/assets/bec4793b-3661-4726-9402-29594473c542" /><br>
+
+Clicking on next reviewing the the all the selection correctly. **Submit** and click on **Done** button to proceed further.
