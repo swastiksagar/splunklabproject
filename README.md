@@ -318,7 +318,7 @@ source="WinEventLog :* " host="MSI"
 
 <img width="" height="45" alt="Screenshot (2 5)" src="https://github.com/user-attachments/assets/00ffcf3d-4b25-403f-872f-51e55e19f2cd" /><br>
 
-**Splunk** successfully ingested Windows Event Logs and accurately matched system-level events *(e.g., Event ID 7040)*
+**Splunk** successfully ingested Windows Event Logs and accurately matched system-level events *Event ID 7040*
 with native Event Viewer entries, confirming end-to-end log integrity.
 
 #
