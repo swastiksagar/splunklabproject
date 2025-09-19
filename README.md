@@ -124,13 +124,9 @@ Go to the *Settings* tab. Scroll to the Logs section and Click *Download Logs* b
 
 <img width="" height="323" alt="Screenshot 2025-09-04 175207" src="https://github.com/user-attachments/assets/1748304c-1f71-4b2e-a969-0517a749c14b" /><br>
 
-The file will be downloaded to your system - ready for analysis in **Splunk** or any other `tool.`
+The file will be downloaded to your system - ready for analysis in **Splunk** or any other `tool.`<br>
 
-#
 *You can download and unzip the log file for analysis either from the repositories section or directly from here:* [*nextdns.zip*](https://github.com/swastiksagar/splunklabproject/raw/refs/heads/main/NextDNS/nextdns.zip)
-
-> [!WARNING]
-> **This Log file contains DNS or network activity related to websites classified as 18+ or adult content.**
 
 #
 
@@ -302,3 +298,51 @@ In select source option click on **Local Event Logs** to add Event Logs from loc
 <img width="" height="323" alt="Screenshot 2025-09-16 043655" src="https://github.com/user-attachments/assets/bec4793b-3661-4726-9402-29594473c542" /><br>
 
 Clicking on next reviewing the the all the selection correctly. **Submit** and click on **Done** button to proceed further.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 043723" src="https://github.com/user-attachments/assets/36162a89-6837-426b-bc7e-e2f391bcd331" /><br>
+
+```console
+source="WinEventLog :* " host="MSI"
+```
+**Splunk** successfully ingested Windows Event Logs from host `MSI`, enabling real-time search and analysis across all log channels.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 050346" src="https://github.com/user-attachments/assets/51150671-f67f-4d8b-8993-354e9ca8902b" /><br>
+
+<img width="" height="45" alt="Screenshot 2025-09-16 050439" src="https://github.com/user-attachments/assets/ff4c60ad-0a18-4dc0-b948-fb21ed32b831" /><br>
+
+<img width="" height="323" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/1e0e9415-ac97-4962-bd43-556101157d60" /><br>
+
+<img width="" height="45" alt="Screenshot (2 5)" src="https://github.com/user-attachments/assets/00ffcf3d-4b25-403f-872f-51e55e19f2cd" /><br>
+
+**Splunk** successfully ingested Windows Event Logs and accurately matched system-level events `(e.g., Event ID 7040)` with native Event Viewer entries, confirming end-to-end log integrity.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045046" src="https://github.com/user-attachments/assets/dbb99f4f-7325-4d40-a27c-c4a5a00d3b0d" /><br>
+
+Enabling visualization and analysis through Pivot, Quick Reports, and Search Commands.<br>
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045101" src="https://github.com/user-attachments/assets/9565eb12-76a6-433f-8ab2-32b1386465f2" /><br>
+
+**Splunk** successfully loaded `89` selected fields from the Windows Event Log data model, allowing focused analysis and efficient visualization across key event attributes.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045314" src="https://github.com/user-attachments/assets/55961074-ae3e-4faa-9227-2447ea5c0099" /><br>
+
+**Splunk** successfully visualized `4,883` system log events from the last `24` hours using a pivot pie chart, highlighting source type distribution with dominant activity from WinEventLog:System. Shortlisting the field type to *source* and *sourcetype*.
+
+#
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045412" src="https://github.com/user-attachments/assets/77b8f046-c7ee-44c8-bb9b-d1856e102f97" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045421" src="https://github.com/user-attachments/assets/63adbdc0-ef05-4e6d-a383-8a56b014e6fb" /><br>
+
+<img width="" height="323" alt="Screenshot 2025-09-16 045432" src="https://github.com/user-attachments/assets/398254f9-d795-4537-90c8-46817ad9bce1" /><br>
+
+**Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that `WinEventLog:Security` dominates the dataset, while `System` and `Application` logs make up smaller portions.
+
