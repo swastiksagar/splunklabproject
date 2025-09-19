@@ -345,5 +345,5 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045432" src="https://github.com/user-attachments/assets/398254f9-d795-4537-90c8-46817ad9bce1" /><br>
 
-**Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that `WinEventLog:Security` dominates the dataset, while `System` and `Application` logs make up smaller portions.
+**Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that **WinEventLog:Security** dominates the dataset, while ***System*** and ***Application*** logs make up smaller portions.
 
