@@ -329,7 +329,7 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045101" src="https://github.com/user-attachments/assets/9565eb12-76a6-433f-8ab2-32b1386465f2" /><br>
 
-**Splunk** successfully loaded `89` selected fields from the Windows Event Log data model, allowing focused analysis and efficient visualization across key event attributes.
+**Splunk** successfully loaded `125` all fields and `18` selected fields from the Windows Event Log data model, allowing focused analysis and efficient visualization across key event attributes.
 
 #
 
