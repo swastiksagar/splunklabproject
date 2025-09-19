@@ -334,7 +334,7 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045314" src="https://github.com/user-attachments/assets/55961074-ae3e-4faa-9227-2447ea5c0099" /><br>
 
-**Splunk** successfully visualized `4,883` system log events from the last `24` hours using a pivot pie chart, highlighting source type distribution with dominant activity from WinEventLog:System. Shortlisting the field type to *source* and *sourcetype*.
+**Splunk** successfully visualized **4,883** system log events from the last `24` hours using a pivot pie chart, highlighting source type distribution with dominant activity from WinEventLog:System. Shortlisting the field type to *source* and *sourcetype*.
 
 #
 
