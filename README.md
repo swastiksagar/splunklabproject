@@ -335,7 +335,7 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045314" src="https://github.com/user-attachments/assets/55961074-ae3e-4faa-9227-2447ea5c0099" /><br>
 
-**Splunk** successfully visualized **4,883** system log events from the last `24` hours using a pivot pie chart, highlighting source type distribution with dominant activity from WinEventLog:System. Shortlisting the field type to *source* and *sourcetype*.
+**Splunk** successfully visualized **4,883** system log events from the last `24` hours using a pivot pie chart, highlighting source type distribution with dominant activity from *`WinEventLog:System.`* Shortlisting the field type to *`source`* and *`sourcetype`*.
 
 #
 
@@ -345,5 +345,4 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045432" src="https://github.com/user-attachments/assets/398254f9-d795-4537-90c8-46817ad9bce1" /><br>
 
-**Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that **WinEventLog:Security** dominates the dataset, while ***System*** and ***Application*** logs make up smaller portions.
-
+**Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that *`WinEventLog:Security`* dominates the dataset, while ***`System`*** and ***`Application`*** logs make up smaller portions.
