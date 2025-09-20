@@ -194,7 +194,7 @@ index="index_nextdns" sourcetype="csv" reasons =*
 `w3-reporting.reddit.com, blocked, "blocklist:hblock"` indicating that traffic was blocked due to the *`hblock blocklist.`*<br>
 
 > [!TIP]
-> The visualized file of blocked events has been uploaded under **Report** folder of *splunklabproject* repositories.
+> The visualized file of blocked events has been uploaded under [***Report***](https://github.com/swastiksagar/splunklabproject/tree/main/Report) folder of *splunklabproject* repositories.
 
 #
 
@@ -341,8 +341,8 @@ Enabling visualization and analysis through Pivot, Quick Reports, and Search Com
 
 <img width="" height="323" alt="Screenshot 2025-09-16 045412" src="https://github.com/user-attachments/assets/77b8f046-c7ee-44c8-bb9b-d1856e102f97" /><br>
 
-<img width="" height="323" alt="Screenshot 2025-09-16 045421" src="https://github.com/user-attachments/assets/63adbdc0-ef05-4e6d-a383-8a56b014e6fb" /><br>
+<img width="" height="325" alt="Screenshot 2025-09-16 045421" src="https://github.com/user-attachments/assets/63adbdc0-ef05-4e6d-a383-8a56b014e6fb" /><br>
 
-<img width="" height="323" alt="Screenshot 2025-09-16 045432" src="https://github.com/user-attachments/assets/398254f9-d795-4537-90c8-46817ad9bce1" /><br>
+<img width="" height="326" alt="Screenshot 2025-09-16 045432" src="https://github.com/user-attachments/assets/398254f9-d795-4537-90c8-46817ad9bce1" /><br>
 
 **Splunk** visualized the distribution of Windows Event Log sourcetypes—showing that *`WinEventLog:Security`* dominates the dataset, while ***`System`*** and ***`Application`*** logs make up smaller portions.
