@@ -31,7 +31,7 @@ This project sets up a Splunk lab environment on Windows to collect, index, and 
 | **Windows 10/11 (8 GB RAM)** | Host operating system for running Splunk and lab environment                  |
 | **Sysmon (Optional)**     | Enhances visibility into process creation, registry changes, and network connections |
 
-<div align="left"> <h3>Lab Archietecture</h3></div>
+<div align="left"> <h3>Lab Architecture</h3></div>
 
 ```bash
 +----------------------+
